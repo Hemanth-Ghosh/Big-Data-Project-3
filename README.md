@@ -57,9 +57,13 @@ Assuming Kafka and Spark of appropriate version is installed, the following comm
 Spark Streaming integeration with kafka 0.10.0.0 and above, is still in experimental status, Hence using Kafka 0.9 (http://spark.apache.org/docs/latest/streaming-kafka-integration.html)
 
 Run Zookeeper to maintain Kafka, command to be run from Kafka root dir
-bin/zookeeper-server-start.sh config/zookeeper.properties
+
+   bin/zookeeper-server-start.sh config/zookeeper.properties
+   
 Start Kafka server, aditional servers can be added as per requirement.
-bin/kafka-server-start.sh config/server.properties
+
+   bin/kafka-server-start.sh config/server.properties
+   
 Start Producer.py to start reading data from the meetup stream and store it in '''meetup''' kafka topic.
 
 Start Consumer.py to consume the stream from the '''meetup''' topic
@@ -68,7 +72,8 @@ Submit the spark job spark_meetup.py, to read the data into Spark Streaming from
 
 Spark depends on a external package for kafka integeration
 
-bin/spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.1 spark_meetup.py localhost:2181 meetup
+   bin/spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.1 spark_meetup.py localhost:2181 meetup
+
 An analysis of number of RSVPs from various cities in "US" region is performed on the RSVPs Stream.
 
 
