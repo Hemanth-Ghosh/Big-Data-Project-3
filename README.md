@@ -76,6 +76,27 @@ Spark depends on a external package for kafka integeration
 
 An analysis of number of RSVPs from various cities in "US" region is performed on the RSVPs Stream.
 
+## Contributors
+
+**Here list the people who have contributed to this project.**
+
+* Sailash R
+* Manaswini Agrawal
+* Swati Pralhad Chavhan
+* Pooja Kumari
+* Divya Peddireddy
+* Rajkumar K
+* Ashish Kumar
+* Aparna Sankarasetti
+* Devansh Sharma
+* Rohit Rawat
+* Shubham Mishra
+* Vaibhav Kant mishra
+* Hemanth Soma
+* Mallakunta Suresh
+* Patrayadi Aditya Kumar
+* Yusuf Ansari
+* Jayashree C S
 
 ## Dataset Used
 
